@@ -1,5 +1,11 @@
 A set of utilities and completions to make your life easier when using the VTEX platform on fish shell.
 
+### Setup
+
+Install using [Fisherman](http://fisherman.sh/)
+
+`fisher vtex/vtex-fish`
+
 ### Available commands
 
 - `envtex` - Sets the $VTEX_ENV variable to the argument, or stable if used without arguments.
