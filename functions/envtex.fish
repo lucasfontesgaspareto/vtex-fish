@@ -1,4 +1,4 @@
-function vtexenv
+function envtex
   set -e VTEX_ENV
   if count $argv > /dev/null
     set --export --universal VTEX_ENV $argv[1]
