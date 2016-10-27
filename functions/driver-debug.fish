@@ -1,6 +1,6 @@
 function driver-debug
-  set --export VTEX_ACCOUNT $argv[1]
-  set --export VTEX_WORKSPACE $argv[2]
+  set --export --global VTEX_ACCOUNT $argv[1]
+  set --export --global VTEX_WORKSPACE $argv[2]
   if test $VTEX_ENV = 'stable'
     set --export --global VTEX_RABBIT_MQ_HOST_SPPA 'amqp://render:render2016@ramq-api-env-stable.us-east-1.elasticbeanstalk.com:5672/sppa.0'
     set --export --global VTEX_RABBIT_MQ_HOST_VBASE 'amqp://render:render2016@ramq-api-env-stable.us-east-1.elasticbeanstalk.com:5672/vbase.1'
