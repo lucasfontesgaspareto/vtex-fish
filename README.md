@@ -2,7 +2,7 @@ A set of utilities and completions to make your life easier when using the VTEX 
 
 ### Setup
 
-Install using [Fisherman](http://fisherman.sh/)
+Install using [Fisherman](https://fisherman.github.io/)
 
 `fisher vtex/vtex-fish`
 
